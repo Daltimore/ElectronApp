@@ -1,0 +1,17 @@
+{
+  "name": "electronapp",
+  "version": "1.0.0",
+  "description": "a simple electron app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron main.js"
+  },
+  "author": "Daltimore",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "electron": "^5.0.2",
+    "jquery": "^3.4.1"
+  }
+}
