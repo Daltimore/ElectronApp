@@ -5,13 +5,17 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron main.js"
+    "start": "electron ."
   },
   "author": "Daltimore",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "electron": "^5.0.2",
-    "jquery": "^3.4.1"
+    "jquery": "^3.4.1",
+    "node-notifier": "^5.4.0",
+    "electron-reload": "^1.2.5",
+    "electron-store": "^2.0.0",
+    "spectre.css": "^0.5.3"
   }
 }
