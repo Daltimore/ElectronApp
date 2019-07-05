@@ -17,10 +17,11 @@
           <form id="todoForm">
             <div class="form-group">
               <label class="form-label" for="add-input">Todo</label>
-              <input class="form-input" type="text" name="add-input" placeholder="I have to...">
+              <input class="form-input" type="text" name="add-input" placeholder="I have to..." oninput="getElementById('my-btn').disabled = false">
+              <p id="error"></p>
             </div>
 
-            <button class="btn">Add Todo</button>
+            <button class="btn" id="my-btn">Add Todo</button>
           </form>
 
         </div>

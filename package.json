@@ -12,10 +12,11 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "electron": "^5.0.2",
+    "electron-notify": "^0.1.0",
+    "electron-reload": "^1.4.0",
+    "electron-store": "^2.0.0",
     "jquery": "^3.4.1",
     "node-notifier": "^5.4.0",
-    "electron-reload": "^1.2.5",
-    "electron-store": "^2.0.0",
-    "spectre.css": "^0.5.3"
+    "spectre.css": "^0.5.8"
   }
 }
