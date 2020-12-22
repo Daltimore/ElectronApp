@@ -18,7 +18,7 @@
     "electron-store": "^2.0.0",
     "jquery": "^3.4.1",
     "lodash": "^4.17.11",
-    "node-notifier": "^5.4.0",
+    "node-notifier": "^8.0.1",
     "spectre.css": "^0.5.8"
   }
 }
